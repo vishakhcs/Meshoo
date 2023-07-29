@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meesho</title>
+    <!--fevicon icon-->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/097231be4e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/511a6cb386.js" crossorigin="anonymous"></script>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLeft">
+            <div class="logoContainer">
+                <img src="./img/meesho.png" />
+            </div>
+
+            <!--seach box-->
+            <div class="searchInputContainer">
+                <div class="searchIcon">
+                    <img src="./img/search.png" />
+                </div>
+                <form action="" id="inputForm">
+                    <input type="text" placeholder="Try Saree, Kurti or Search by Product Code" class="inputSearch" />
+                </form>
+                <div class="inputCloseSearch">
+                    <i class="fa-solid fa-xmark" id="closeSearch"></i>
+                </div>
+
+                <div class="searchRecentModal">
+                    <h3>Recent Searches</h3>
+                    <div class="listofRecent">
+                     
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="headerRight">
+            <div class="downloadContainer">
+                <div class="mobileIcon">
+                    <img src="./img/mobile.png" />
+                </div>
+                <p>Download App</p>
+                <div class="downloadHoverBtnContainer">
+                    <h3>Download From</h3>
+
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" />
+                    </a>
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" />
+                    </a>
+                </div>
+            </div>
+
+                <div class="becomeSupplierContainer">
+                    <p>Become a Supplier</p>
+                </div>
+                <div class="profileAndCart">
+                    <div class="profileContainer">
+                        <div class="profileIcon">
+                            <img src="./img/user.png" />
+                        </div>
+                        <p>Profile</p>
+                    </div>
+                    <div class="CartContainer">
+                        <div class="CartIcon">
+                            <img src="./img/cart.png" />
+                        </div>
+                        <p>Cart</p>
+                    </div> 
+                  </div>
+                </div>
+            </div>
+        </header>
+  <!--navigation-->
+  <nav class="nav" style="margin-bottom: 30px;">
+    <hr>
+    <ul class="container ul-reset">
+
+        <li class='droppable' style="margin-bottom: 20px;">
+            <a href='#'>Women Ethnic</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>All Women Ethnics</h3>
+                        <li><a href='../pages/products.html'>View All</a></li>
+
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Sarees</h3>
+                        <li><a href='#'>Jeans</a></li>
+                        <li><a href='#'>Jeggings</a></li>
+                        <li><a href='#'>Palazzos</a></li>
+                        <li><a href='#'>Shorts</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Kurtis</h3>
+                        <li><a href='#'>Jeans</a></li>
+                        <li><a href='#'>Jeggings</a></li>
+                        <li><a href='#'>Palazzos</a></li>
+                        <li><a href='#'>Shorts</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Suits & Dress Material</h3>
+                        <li><a href='../pages/products.html'>All Sarees</a></li>
+                        <li><a href='../pages/products.html'>Silk Sarees</a></li>
+                        <li><a href='../pages/products.html'>Cotton Silk Sarees</a></li>
+                        <li><a href='../pages/products.html'>Cotton Sarees</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                        <li><a href='../pages/products.html'>Chiffon Sarees</a></li>
+                        <li><a href='../pages/products.html'>Embroidered Sarees</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Other Ethnic</h3>
+                        <li><a href='#'>Jeans</a></li>
+                        <li><a href='#'>Jeggings</a></li>
+                        <li><a href='#'>Palazzos</a></li>
+                        <li><a href='#'>Shorts</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Kurta Sets</h3>
+                        <li><a href='#'>Jeans</a></li>
+                        <li><a href='#'>Jeggings</a></li>
+                        <li><a href='#'>Palazzos</a></li>
+                        <li><a href='#'>Shorts</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                    </ul><!-- .ul-reset -->
+
+        <li class='droppable'>
+            <a href='#'>Women Western</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>Top Wear</h3>
+                        <li><a href='#'>Dresses</a></li>
+                        <li><a href='#'>Tops</a></li>
+                        <li><a href='#'>Sweaters</a></li>
+                        <li><a href='#'>Jump Suits</a></li>
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Bottom Wear</h3>
+                        <li><a href='#'>Jeans</a></li>
+                        <li><a href='#'>Jeggings</a></li>
+                        <li><a href='#'>Palazzos</a></li>
+                        <li><a href='#'>Shorts</a></li>
+                        <li><a href='#'>Skirts</a></li>
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Inner Wear</h3>
+                        <li><a href='#'>Bra</a></li>
+                        <li><a href='#'>Briefs</a></li>
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Sleep Wear</h3>
+                        <li><a href='#'>Nightsuits</a></li>
+                        <li><a href='#'>Babydolls</a></li>
+
+                    </ul>
+                </div><!-- .container -->
+            </div><!-- .mega-menu -->
+        </li><!-- .droppable -->
+        <li class='droppable'>
+            <a href='#'>Jewellery & Accessories</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>Jewellery</h3>
+                        <li><a href='#'>Jewellery Set</a></li>
+                        <li><a href='#'>Mangalsutras</a></li>
+                        <li><a href='#'>Earring</a></li>
+                        <li><a href='#'>Studs</a></li>
+                        <li><a href='#'>Bangles</a></li>
+                        <li><a href='#'>Neckles</a></li>
+                        <li><a href='#'>Ring</a></li>
+                        <li><a href='#'>Anklets</a></li>
+
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Women Accessory</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+                </div><!-- .container -->
+            </div><!-- .mega-menu-->
+        </li><!-- .droppable -->
+        <li class='droppable'>
+            <a href='../pages/mens.html'>Men</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>Top Wear</h3>
+                        <li><a href='../pages/mens.html'>All Top wear</a></li>
+                        <li><a href='../pages/mens.html'>Shirts</a></li>
+                        <li><a href='../pages/mens.html'>Tshirts</a></li>
+
+
+                    </ul><!-- .container .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Bottom Wear</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Men Accessory</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Men Footwear</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Ethnic Wear</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+                    <ul class="ul-reset">
+                        <h3>Inner & Sleep Wear</h3>
+                        <li><a href='#'>Bags</a></li>
+                        <li><a href='#'>Watches</a></li>
+                        <li><a href='#'>Hair Accessory</a></li>
+                        <li><a href='#'>Sunglasses</a></li>
+                        <li><a href='#'>Socks</a></li>
+                    </ul><!-- .ul-reset -->
+
+        <li class='droppable'>
+            <a href='#'>Beauty & Health</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>Make up</h3>
+                        <li><a href='#'>Face</a></li>
+                        <li><a href='#'>Eyes</a></li>
+                        <li><a href='#'>Lips</a></li>
+                        <li><a href='#'>Nails</a></li>
+
+
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Wellness</h3>
+                        <li><a href='#'>Sanitizers</a></li>
+                        <li><a href='#'>Oral Care</a></li>
+                        <li><a href='#'>Feminine Hygiene</a></li>
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Skin Care</h3>
+                        <li><a href='#'>Deodrants</a></li>
+                    </ul><!-- .ul-reset -->
+
+        <li class='droppable'>
+            <a href='#'>Bags & FootWear</a>
+            <div class='mega-menu'>
+                <div class="container cf">
+                    <ul class="ul-reset">
+                        <h3>Women Footwear</h3>
+                        <li><a href='#'>Flats</a></li>
+                        <li><a href='#'>Bellies</a></li>
+                        <li><a href='#'>Juttis</a></li>
+
+
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Men Footwear</h3>
+                        <li><a href='#'>Sport Shoes</a></li>
+                        <li><a href='#'>Casual Shoes</a></li>
+                        <li><a href='#'>Formal Shoes</a></li>
+                        <li><a href='#'>Sandals</a></li>
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Women Bags</h3>
+                        <li><a href='#'>All Women Bags</a></li>
+                        <li><a href='#'>Handbags</a></li>
+                        <li><a href='#'>Clutches</a></li>
+                        <li><a href='#'>Slingbags</a></li>
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Men Bags</h3>
+                        <li><a href='#'>All Men Bags</a></li>
+                        <li><a href='#'>Men Wallets</a></li>
+
+                    </ul><!-- .ul-reset -->
+                    <!-- 
+    <li class='droppable'>
+        <a href='#'>Bags & FootWear</a>
+        <div class='mega-menu'>
+            <div class="container cf">
+                <ul class="ul-reset">
+                    <h3>Women Footwear</h3>
+                    <li><a href='#'>Flats</a></li>
+                    <li><a href='#'>Bellies</a></li>
+                    <li><a href='#'>Juttis</a></li>
+
+
+                </ul> -->
+
+                    <!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Men Footwear</h3>
+                        <li><a href='#'>Sport Shoes</a></li>
+                        <li><a href='#'>Casual Shoes</a></li>
+                        <li><a href='#'>Formal Shoes</a></li>
+                        <li><a href='#'>Sandals</a></li>
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Women Bags</h3>
+                        <li><a href='#'>All Women Bags</a></li>
+                        <li><a href='#'>Handbags</a></li>
+                        <li><a href='#'>Clutches</a></li>
+                        <li><a href='#'>Slingbags</a></li>
+                    </ul><!-- .ul-reset -->
+                    <ul class="ul-reset">
+                        <h3>Men Bags</h3>
+                        <li><a href='#'>All Men Bags</a></li>
+                        <li><a href='#'>Men Wallets</a></li>
+
+                    </ul><!-- .ul-reset -->
+
+</nav>
+
+
+</header>
+<!-- Div3 -->
+<div class="firstBannerPlayStore">
+<div id="playLeftBanner">
+    <h1 id="H1PlayBanner">Lowest Prices <br> Best Quality Shopping</h1>
+    <div id="FiftyLakh">
+        <p>50 lakh+ Styles | 650+ categories</p>
+    </div>
+
+
+    <button><a href="https://play.google.com/store/apps/details?id=com.meesho.supply" target="_blank"
+            style="color: rgb(172, 23, 95);">Download the Meesho App</a></button>
+</div>
+
+<div id="rightModelsBanner">
+    <img height="100%" width="100%" src="https://images.meesho.com/images/marketing/1631722939962.jpg" alt="">
+</div>
+</div>
+
+<!-- Div3 -->
+<div class="TopCategoriesSeperator">
+<div id="HrLineCategoriesSeperator">
+    <hr>
+</div>
+<div id="H1Seperator">
+
+    <h1>Top Categories to choose from</h1>
+</div>
+<div id="HrLineCategoriesSeperator">
+    <hr>
+</div>
+</div>
+
+<!-- Div4 -->
+<div class="fashionStore">
+<div id="fashionStoreLeftDiv">
+
+    <div id="imgLeftDivfashionStore">
+        <img height="400px" width="350px" style="margin-top: 20px;"
+            src="https://images.meesho.com/images/marketing/1631611172021.png" alt="">
+
+    </div>
+</div>
+
+
+<div id="fashionStoreRightDiv">
+    <div style="height: 40%;"></div>
+
+
+    <div id="westernWearMensWear">
+        <div>
+
+            <img height="100%" width="100%" src="https://images.meesho.com/images/marketing/1631610854491.png"
+                alt="">
+
+        </div>
+
+
+        <div>
+            <img height="100%" width="100%" src="https://images.meesho.com/images/marketing/1631611208025.png"
+                alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- dDiv5 -->
+<div class="homeCare">
+<div>
+    <h1>Homecare</h1>
+    <input type="submit" value="VIEW ALL" id="homeCareButton1">
+</div>
+
+
+<div id="otherDivHomeCare">
+
+    <div id="subOtherImgDivHomeCare">
+        <img width="100%" height="100%" src="https://images.meesho.com/images/marketing/1629883981751.png"
+            alt="">
+    </div>
+
+    <!-- <div id="subOtherButtonDivHomeCare">
+
+    </div> -->
+    <input type="submit" value="Bedsheets" id="OtherButtonDivHomeCare">
+
+</div>
+<div id="otherDivHomeCare">
+    <div id="subOtherImgDivHomeCare">
+        <img width="100%" height="100%" src="https://images.meesho.com/images/marketing/1629884011960.png"
+            alt="">
+    </div>
+
+    <!-- <div id="subOtherButtonDivHomeCare">
+
+    </div> -->
+    <input type="submit" value="Kitchenware" id="OtherButtonDivHomeCare">
+
+
+</div>
+<div id="otherDivHomeCare">
+
+    <div id="subOtherImgDivHomeCare">
+        <img width="100%" height="100%" src="https://images.meesho.com/images/marketing/1629883997863.png"
+            alt="">
+    </div>
+
+    <!-- <div id="subOtherButtonDivHomeCare">
+
+    </div> -->
+    <input type="submit" value="Carpets" id="OtherButtonDivHomeCare">
+
+
+
+</div>
+</div>
+
+<!-- Div6 -->
+<div class="playAppleStore">
+
+<div></div>
+<div id="rightPlayAppleStoreDiv">
+    <div>
+        <h2 id="h2PlayAppleStore">Beacome a Reseller and</h2>
+        <h1 id="h1PlayAppleStore">Start your Online Business <br> with Zero Investments</h1>
+    </div>
+
+    <div id="lowerImgDiv">
+        <div>
+            <img onclick="playStore()" id="imgPlayApple" width="200px"
+                src="https://images.meesho.com/images/pow/playstore-icon-big.webp"
+                alt="">
+        </div>
+        <div>
+            <img onclick="appleStore()" id="imgPlayApple" width="200px"
+                src="https://images.meesho.com/images/pow/appstore-icon-big.webp">
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+<!-- Div6 -->
+<div class="registerAsMeeshoSupplier">
+
+<span>Register as a Meesho Supplier</span>
+
+<p id="pOfBannerSupplier">Sell your products to crores of customers at 0% commission</p>
+
+<div id="threeTick">
+
+    <i class="fas fa-check-circle bg-primary" ></i> <span>Grow yor business 10x</span>
+    <hr>
+    <i class="fas fa-check-circle"></i><span>Enjoy 100% Profit</span>
+    <hr>
+    <i class="fas fa-check-circle"></i><span>Sell all over India</span>
+</div>
+
+<div id="signUpBannerDiv">
+    <p>Sign up now</p>
+</div>
+
+
+
+</div>
+
+
+<!-- Div7 -->
+
+<div class="shopNonStop">
+
+<!-- firstBig div -->
+<div id="bigDivsShopNonStop">
+
+    <h4>Shop Non-Stop on Meesho</h4>
+    <p>Trusted by more than 1 Crore Indians <br>
+        Cash on Delivery | Free Delivery</p>
+
+    <div id="playAppleBigDivShopNonStop">
+        <div>
+            <img onclick="playStore()" height="100%" width="100%"
+                src="https://images.meesho.com/images/pow/playstore-icon-big.webp" />
+        </div>
+        <div>
+            <img onclick="appleStore()" height="100%" width="100%"
+                src="https://images.meesho.com/images/pow/appstore-icon-big.webp"/>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div id="smallDivsShopNonStop">
+    <p>Careers</p>
+    <p>Become a Supplier</p>
+</div>
+
+<div id="smallDivsShopNonStop">
+
+    <p>Legal and Policies</p>
+    <p>Meesho Tech Blog</p>
+
+</div>
+
+
+<!-- secondBig div -->
+<div id="bigDivsShopNonStop">
+
+    <div id="firstsubdivlastBigDiv">
+        <div>
+            <h6>Contact Us</h6>
+            <p>query@meesho.com</p>
+        </div>
+
+        <div>
+            <h6>Reach out to us</h6>
+
+            <div id="imagesReachUsOut">
+                <div>
+                    <img onclick="facebook()" width="100%" height="100%"
+                        src="https://meesho.com/assets/facebook.png" alt="">
+                </div>
+                <div>
+                    <img onclick="instagram()" width="100%" height="100%"
+                        src="https://meesho.com/assets/instagram.png" alt="">
+                </div>
+                <div>
+                    <img onclick="youtube()" width="100%" height="100%"
+                        src="https://meesho.com/assets/youtube.png" alt="">
+                </div>
+                <div>
+                    <img onclick="linkedIn()" width="100%" height="100%"
+                        src="https://meesho.com/assets/linkedin.png" alt="">
+                </div>
+                <div>
+                    <img onclick="twitter()" width="100%" height="100%"
+                        src="https://meesho.com/assets/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <p>If you have received a product that you did
+            not order, please call us on 080-68878782.
+            Please note no other support will be provided
+            here.</p>
+    </div>
+</div>
+</div>
+
+
+<!-- div8 -->
+
+<div class="lastDiv">
+
+<div id="lastDiv">
+
+    <br>
+    <span id="spanLast">More About Meesho</span>
+
+    <hr>
+
+    <div>
+        <span id="spanLast">Find The Biggest Collection Of Affordable Products In Every Category</span>
+
+        <p>Meesho has over 50 lakh products in different categories like clothes, cosmetics, and household
+            items. There are over 650+ categories of products to choose from. You can read reviews and user
+            feedback before placing an order. Some of the popular product categories are women's ethnic wear,
+            men's top wear, western wear, accessories, and home essentials. Meesho also conducts regular quality
+            checks to ensure that you get products of the best quality.</p>
+
+    </div>
+
+    <div>
+        <span id="spanLast">Women's Ethnic Wear</span>
+
+        <p>Our product selection encompasses the latest trending designs in every category -
+            <span id="pink">Sarees, Suits, Kurtis,</span> jewelry, and many more. Whether you are shopping for
+            the festive season, casual or party wear clothes, you will find everything you need on our website.
+            Our comprehensive collection of jewelry sets and accessories will steal your heart.
+        </p>
+    </div>
+
+    <div>
+        <span id="spanLast">Women's Western Wear</span>
+
+        <p>When it comes to Western wear for women,
+            you will find the best quality clothes
+            at the most affordable prices on Meesho.
+            Our curated collection of Western wear
+            includes designer Western dresses, jeans,
+            skirts, shorts, <span id="pink">gowns</span> along with other
+            essential accessories like handbags,
+            <span id="pink">sunglasses</span>, and fashion jewelry.
+            You can buy all the latest styles at
+            reasonable prices.
+        </p>
+    </div>
+
+    <div>
+        <span id="spanLast">Men's Western Wear</span>
+
+        <p>Our men's clothing collection features
+            hundreds of options in men's top wear in
+            every design, color, and pattern. We have
+            all the trending <span id="pink">shirts for men</span>, shirt
+            dress material, latest t-shirts for men,
+            all at unbelievable prices.
+            You can also check out our men's
+            bottom wear and winter wear for men
+            collection if you want budget-friendl
+            y but stylish <span id="pink">jeans for men</span>, jackets,
+            sweaters, coats, innerwear, and more
+            . And when it comes to formals for
+            men, we have an exclusive collection
+            that includes, men's suits, formal
+            pants, formal <span id="pink">shoes for men</span>, and
+            much more.</p>
+    </div>
+
+    <div>
+        <span id="spanLast">Men's Ethnic Wear</span>
+
+        <p>Apart from Western wear, we also have the latest ethnic wear options to choose from. If you want to
+            explore traditional outfits for men, take a look at our latest Sherwanis, Kurtas, Kurta sets, ethnic
+            jackets, bottom wear, and more. Do not forget to check out our footwear collection for all the
+            latest shoes for men.</p>
+    </div>
+
+    <div>
+        <span id="spanLast">Accessories and Footwear</span>
+
+        <p>Women's Accessories: No outfit is complete without the right accessories and shoes. To add essence to
+            any outfit, take your pick from our latest collection of accessories for women. Add a trendy sling
+            bag or clutch for a gorgeous evening look. Add a stylish scarf for an ultra-chic look. As for
+            footwear, we have a plethora of options for you. From <span id="pink">high heels</span> and
+            partywear ethnic shoes to daily wear shoes, sandals, flip flops, and more, you will find all the
+            latest designs at very affordable prices. <br>
+            Mens Accessories: Accessorizing your outfits is just as important for men and that is why we also
+            have a wide variety of must-have men's fashion accessories like smartwatches, backpacks, wallets,
+            belts, keychains, bracelets, etc. Moreover, we have also added our latest selection of men's
+            footwear for you. Whether you are looking for casual sneakers and sports shoes, formal leather shoes
+            or ethnic party wear shoes, you will definitely get what you want here. What's more? You can avail
+            of exclusive discounts and offers on every purchase.</p>
+    </div>
+
+    <div>
+        <span id="spanLast">Kids' Clothing</span>
+
+        <p>Finding the right clothes for your kids has never been so easy. Browse through our lineup of the most
+            comfortable and adorable kids' outfits. From cute dresses, skirts, suits, frocks for your little
+            girl to lovely T-shirts, shirts, jeans, and shorts for your baby boy, you will find all you need
+            here. Not just that, we also have traditional clothing and accessories for kids of all ages.</p>
+    </div>
+
+    <div>
+        <span id="spanLast">Beauty & Makeup</span>
+
+        <p>Whether you're looking for the perfect foundation & <span id="pink">lipstick</span>, the best
+            anti-aging cream, or just a <span id="pink">face wash</span>, you can find just what you're looking
+            for when you shop online with us. We stock thousands of products in all price ranges, so you can
+            find the perfect product for your budget. And whether you want the latest in skincare technology or
+            the hottest in fragrances, you can find it when you browse our cosmetics, fragrances, and skincare
+            range.</p>
+    </div>
+
+    <div>
+        <span id="spanLast">Home & Kitchen Essentials</span>
+
+        <p>Home Furnishing & Decor: If you are looking for home furnishing essentials and other household
+            products, you are just where you need to be. Our huge range of the latest <span
+                id="pink">curtains</span>, bedsheets, table cloths, <span id="pink">decorative
+                showpieces</span>, and other home furnishing products will surely solve all your problems.
+            <br>
+            Kitchen Products: As for other household essentials, you can take your pick from a huge range of
+            kitchen tools, serveware, <span id="pink">drinkware</span>, and other utility items. If you love to
+            cook, you must take a look at our handpicked selection of high-quality kitchen products.
+            <br>
+            Stationery & Office Supplies: If you are looking for inexpensive stationery items and office
+            products, you are in luck! We have top-quality products like paper envelopes, paper clips, pens,
+            diaries, etc. that are widely used by students, professionals, businessmen, etc. in their day-to-day
+            life.
+            <br>
+            Electronics & Automotive Accessories: At Meesho, we have made it easy for you to find affordable
+            products that suit your lifestyle. With our exclusive deals and discounts, you don't have to worry
+            about spending too much on your favorite gadgets and accessories. Browse through our collection and
+            buy top-quality <span id="pink">electronic items</span>, automotive and mobile accessories at
+            affordable prices.
+            <br>
+            Sports & Fitness: To help you stay fit and healthy, we have curated a selection of useful sports and
+            fitness equipment. These products include but are not limited to dumbell sets, jump ropes, yoga
+            mats, exercise bands, resistance bands, etc. Check out our latest selection and find everything you
+            need in one place.
+            <br>
+            Our products come directly from wholesalers and suppliers, which means that you can get them at
+            factory prices. This is the only platform where you can get trending products in every category
+            without worrying about high prices. You can also utilize offers and discounts to save even more.
+        </p>
+    </div>
+
+    <span id="spanLast">Trending now</span>
+
+    <p id="bottomTrendindBar">Silk Saree | Kajal | Sanitizers | Kurtis Design | Lehenga Designs | Goggles |
+        Suits | Mangalsutra | Gold Earrings | Blazers for Men | Bridal Lehengas | Necklaces | Rakhi | Ring |
+        Salwar Suits | Blouse | Clocks | Girls Jeans | Ladies Watches | Gold Necklace Design | Hair
+        Straighteners | Denim Jackets for Men | Kurta Design | Sexy Maxi Dresses | Noserings | Bed Sheets | Gold
+        Bangles Design | Gold Chain Design | Led Lights | Umbrellas | Payal | Ladies Dress | Gold Mangalsutra
+        Design | Men Jeans | Jewellery Sets | Paithani Sarees | Sofa Covers | Sweaters for Women | Tops Designs
+        | Water Bottles | Wedding Sarees</p>
+
+</div>
+
+</div>
+
+
+<script src="js.js" type="module"></script>
+</body>
+
+</html>
